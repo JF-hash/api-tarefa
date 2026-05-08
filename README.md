@@ -81,4 +81,4 @@ Vocês podem criar um `index.html` inicial e adicionar estilos em `styles.css` p
 -   Considerem a validação de entrada para as requisições (já há um exemplo na função `criar`).
 -   Tratem os erros de forma adequada, retornando status HTTP apropriados e mensagens claras.
 
-Boa sorte com a atividade!
+Boa sorte com a atividade! 

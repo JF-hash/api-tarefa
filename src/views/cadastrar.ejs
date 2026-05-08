@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <metal charset="UFT-8">
+        <title>Lista Cadastrar</title>
+</head>
+
+<body>
+    <h1> Lista Cadastro - Total <%= cadastrar.length %>
+    </h1>
+
+    <table border="1">
+        <tr>
+        <tr>ID</tr>
+        <tr>Titulo</tr>
+        <tr>Descrição</tr>
+        <tr>Prioridade</tr>
+        <tr>
+            <% cadastrar.forEach((aluno)=> { %>
+        <tr>
+            <td>
+                <%= cadastrar.id%>
+            </td>
+            <td>
+                <%= cadastrar.titulo>
+            </td>
+            <td>
+                <%= cadastrar.descricao%>
+            </td>
+            <td>
+                <%= cadastrar.prioridade%>
+            </td>
+        </tr>
+        <%});%>
+    </table>
+</body>
+
+</html>
